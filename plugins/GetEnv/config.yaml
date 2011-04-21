@@ -1,0 +1,13 @@
+id  : GetEnv
+key : getenv
+name: Get Env
+version: 0.1
+author_name: Alfasado Inc.
+author_link: http://alfasado.net/
+l10n_class: GetEnv::L10N
+description: '<__trans phrase="Get Server Environment and Cookie value.">'
+tags:
+    function:
+        GetEnv: $getenv::GetEnv::Tags::_hdlr_get_env
+        GetCookie: $getenv::GetEnv::Tags::_hdlr_get_cookie
+
